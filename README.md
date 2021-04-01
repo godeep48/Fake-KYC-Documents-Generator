@@ -20,6 +20,20 @@ Fake KYC Documents (Aadhar card, PAN card and License) in scanned A4 format and 
 
 ## How to run?
 
-```python
-python process.py
+```
+process.py [-h] [-af AADHARFRONT] [-ab AADHARBACK] [-p PAN]
+           [-l LICENSE] -c COUNT -o OUT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -af AADHARFRONT, --aadharfront AADHARFRONT
+                        Path to Front face of Aadhar card
+  -ab AADHARBACK, --aadharback AADHARBACK
+                        Path to Back face of Aadhar card
+  -p PAN, --pan PAN     Path to PAN card
+  -l LICENSE, --license LICENSE
+                        Path to License document
+  -c COUNT, --count COUNT
+                        Number of images you want to save
+  -o OUT, --out OUT     destination in which you want to save images
 ```
