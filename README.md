@@ -16,4 +16,7 @@ Fake KYC Documents (Aadhar card, PAN card and License) in scanned A4 format and 
 * tqdm
 * uuid
 * requests
-* faker
+* [faker](https://pypi.org/project/Faker/)
+
+## How to run?
+
