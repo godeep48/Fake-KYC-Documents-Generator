@@ -36,4 +36,6 @@ optional arguments:
   -c COUNT, --count COUNT
                         Number of images you want to save
   -o OUT, --out OUT     destination in which you want to save images
+  
+  example: python process.py -af "aadhar_front.jpg" -ab "src/aadhar_back.jpg" -p "src/par_card.jpg" -l "src/License_new.jpg" -c 2 -o train/
 ```
